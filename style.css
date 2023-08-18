@@ -1,3 +1,13 @@
+:root {
+    --cor0: #F2059F;
+    --cor1: #049DD9;
+    --cor2: #D92B04;
+    --cor3: #8C0303;
+    --cor4: #0D0D0D;
+}
+
+
+
 #sobre, 
 #servicos, 
 #portfolio, 
@@ -9,7 +19,7 @@
 .bgimage {
     height: 100vh;
     position: relative;
-    background: url("images/heroImagem.jpg");
+    background: url("images/4.jpg");
     background-size: cover;
 }
 
@@ -46,21 +56,31 @@
     width: 100%;
 }
 
+.card a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor0);
+}
+
+.card a:hover {
+    font-weight: 700;
+    color: var(--cor1);
+}
 .cardTitle {
     text-align: center;
 }
 
 .card:hover .servicesIcon {
-    color: #008000;
+    color: var(--cor1);
 }
 
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid var(--cor1)
 }
 
 /* Estilização do cabeçalho */
 .navbar {
-    background-color: #006342;
+    background-color: var(--cor4);
 }
 
 .navbar a {
@@ -77,16 +97,16 @@
 
 .contactIcon {
     font-size: 2.5rem;
-    color: #006342;
+    color: var(--cor4);
 }
 
 /* Footer */
 footer {
-    background-color: #003020;
+    background-color: #0d0d0de5;
 }
 
 .footerIcon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -95,7 +115,7 @@ footer {
 }
 
 .footerDev {
-    background-color: #006342;
+    background-color: var(--cor4);
 }
 
 /* Efeito GlassMorphism */
@@ -103,6 +123,7 @@ footer {
 .glass {
     position: absolute;
     height: 40%;
+    width: 90vw;
 
     top: 50%;
     left: 50%;
