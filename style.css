@@ -119,6 +119,161 @@
     margin-left: 15%;
 }
 
+#portfolio {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.portfolio-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.cardText {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.cardText a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cardText a:hover {
+    text-decoration: underline;
+}
+
+.contactContent {
+    padding: 50px 0;
+}
+
+#contato h2 {
+    margin-bottom: 30px;
+}
+
+#contato .row {
+    align-items: flex-start;
+}
+
+#contato .col-lg-6 {
+    margin-bottom: 30px;
+}
+
+#contato .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#contato .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#contato .cardBody {
+    padding: 20px;
+    text-align: center;
+}
+
+#contato .cardBody h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#contato .cardBody p {
+    margin-bottom: 0;
+}
+
+#contato .contactIcon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contato .cardBody a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contato .cardBody a:hover {
+    text-decoration: underline;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    position: relative;
+    width: 300px;  
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card .cardBody {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.contact-card p {
+    margin-bottom: 0;
+}
+
+.contact-card .contactIcon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #0d0d0de5;

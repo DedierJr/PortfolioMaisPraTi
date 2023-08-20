@@ -43,7 +43,7 @@
                         <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfólio</a>
@@ -71,24 +71,26 @@
     </section>
 
     <!-- About Section -->
-    <section id="sobre">
-        <div class="container mt-4 pt-4">
-            <h2 class="text-center">Sobre Mim</h2>
-            <div class="row mt-4">
+    <section id="sobre" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Mim</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Informações Pessoais</h4>
+                    <ul class="list-unstyled">
+                        <li><strong>Nome:</strong> Dedier Júnior</li>
+                        <li><strong>Idade:</strong> 18 Anos</li>
+                        <li><strong>Ocupação:</strong> 7/8 semestre em Técnico em Informática</li>
+                    </ul>
                 </div>
-                <!-- Informações Sobre Mim -->
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <ul>
-                            <li>Nome: Dedier Júnior
-                            <li>Idade: 18 Anos
-                            <li>Ocupação: 7/8 semestre em Técnico em Informática
-                        </ul>
-                    </div>
-                </div>
-                <!-- Parágrafo + infos -->
-                <div class="row mt-3">
-                    <p>Olá! Me chamo Dedier Júnior, moro em Bagé RS, estudo no IFSUL Campus Bagé e atualmente estou no sétimo semestre do curdo de Técnico em Informática Integrado. Gosto de programar e atualmente estou estudando para me tornar um desenvolvedor Front-End e futuramente Full Stack!</p>
+                <div class="col-md-6">
+                    <h4>Um Pouco Sobre Mim</h4>
+                    <p>
+                        Olá! Me chamo Dedier Júnior, sou de Bagé RS e estudo no IFSUL Campus Bagé.
+                        Atualmente estou no sétimo semestre do curso de Técnico em Informática Integrado.
+                        Tenho paixão por programação e estou focado em me tornar um desenvolvedor Front-End,
+                        com o objetivo de me tornar Full Stack no futuro.
+                    </p>
                 </div>
             </div>
         </div>
@@ -185,17 +187,18 @@
     </section>
     <!-- contact section -->
     <section id="contato">
-    <div class="container mt-3 mb-3 contactContent">
-        <h2 class="text-center">Contate Me</h2>
-        <div class="row mt-4">
-            <div class="col-lg-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109080.71409220726!2d-54.17429121436497!3d-31.310037515401387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x950675847493ab7d%3A0x667e3efbe8e31985!2zQmFnw6ksIFJT!5e0!3m2!1spt-BR!2sbr!4v1692219668462!5m2!1spt-BR!2sbr" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div>
+        <div class="container mt-3 mb-3 contactContent">
+            <h2 class="text-center">Contate Me</h2>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- Mapa incorporado do Google Maps -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218161.95043743047!2d-54.256526084718004!3d-31.30981201606864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x950675847493ab7d%3A0x667e3efbe8e31985!2zQmFnw6ksIFJT!5e0!3m2!1spt-BR!2sbr!4v1692575345290!5m2!1spt-BR!2sbr" width="650" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card servicesText">
+                        <!-- Card 1: Telefone -->
+                        <div class="col-lg-6 mb-3">
+                            <div class="servicesText contact-card">
                                 <div class="cardBody">
                                     <i class="fa-solid fa-phone contactIcon"></i>
                                     <h3>Telefone</h3>
@@ -203,8 +206,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="card servicesText">
+                        <!-- Card 2: Email -->
+                        <div class="col-lg-6 mb-3">
+                            <div class="servicesText contact-card">
                                 <div class="cardBody">
                                     <i class="fa-solid fa-envelope contactIcon"></i>
                                     <h3>Email</h3>
@@ -212,24 +216,34 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-            </div>
-                <div class="row mt-4">
-                    <div class="col-lg-6">
-                        <a href="https://github.com/DedierJr" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-github contactIcon"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a href="https://www.linkedin.com/in/dedier-aguiar-1421b0255/" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-linkedin contactIcon"></i>
-                        </a>
+                        <!-- Card 3: GitHub -->
+                        <div class="col-lg-6 mb-3">
+                            <div class="servicesText contact-card">
+                                <div class="cardBody">
+                                    <a href="https://github.com/DedierJr" target="_blank" rel="noopener">
+                                        <i class="fa-brands fa-github contactIcon"></i>
+                                    </a>
+                                    <h3>GitHub</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4: LinkedIn -->
+                        <div class="col-lg-6 mb-3">
+                            <div class="servicesText contact-card">
+                                <div class="cardBody">
+                                    <a href="https://www.linkedin.com/in/dedier-aguiar-1421b0255/" target="_blank" rel="noopener">
+                                        <i class="fa-brands fa-linkedin contactIcon"></i>
+                                    </a>
+                                    <h3>LinkedIn</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    
 
 <!-- Footer -->
 <footer class="text-center text-white">
