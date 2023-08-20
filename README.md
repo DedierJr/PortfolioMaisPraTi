@@ -8,4 +8,4 @@ Projeto final da primeira etapa do curso Do Zero ao Primeio site que engloba os 
 - iFrames
 - Páginas interativas
 - Glassmorphism
-E muito mais! Confira: <a href="https://dedierjr.github.io/PortfolioMaisPraTi/index.html"></a>
+E muito mais! Confira: https://dedierjr.github.io/PortfolioMaisPraTi/index.html
